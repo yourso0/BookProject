@@ -5,7 +5,7 @@
 <head>
 <meta charset="UTF-8">
 <link rel="stylesheet" href="${pageContext.request.contextPath }/resources/css/title.css">
-<title>중고 도서사이트</title>
+<title>중고 도서사이트.</title>
 </head>
 <body>
 	<%@ include file="include/header.jsp" %>	

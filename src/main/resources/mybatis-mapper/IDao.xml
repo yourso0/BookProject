@@ -6,25 +6,25 @@
 	
 <mapper namespace="com.usedbook.home.dao.IDao">
 	
-	<!-- 회원 관리 SQL -->
+	<!-- 회원 관리 SQL. -->
 	<insert id="memberJoin">
 		INSERT INTO member_join(mid, mpw, mname, memail , mphone , maddress) VALUES(#{param1}, #{param2}, #{param3}, #{param4}, #{param5}, #{param6}) 
 	</insert>
 	
 	<select id="checkId" resultType="int">
-		SELECT COUNT(*) FROM profile_member WHERE mid=#{param1}
+		SELECT COUNT(*) FROM member_join WHERE mid=#{param1}
 	</select>
 	
 	<select id="checkIdAndPW" resultType="int">
-		SELECT COUNT(*) FROM profile_member WHERE mid=#{param1} AND mpw=#{param2}
+		SELECT COUNT(*) FROM member_join WHERE mid=#{param1} AND mpw=#{param2}
 	</select>
 	
 	<select id="getMemberInfo" resultType="com.usedbook.home.dto.MemberDto">
-		SELECT * FROM profile_member WHERE mid=#{param1}
+		SELECT * FROM member_join WHERE mid=#{param1}
 	</select>
 	
 	<update id="memberModify">
-		UPDATE profile_member SET mpw=#{param2}, mname=#{param3}, memail=#{param4} WHERE mid=#{param1}
+		UPDATE member_join SET mpw=#{param2}, mname=#{param3}, memail=#{param4} WHERE mid=#{param1}
 	</update>
 	
 	<!-- 게시판 SQL -->

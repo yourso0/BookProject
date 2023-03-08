@@ -52,7 +52,15 @@
 										<td><span class="content_text01">이 메 일 : </span></td>
 										<td><input class="input_type01" type="text" name="memail" value="${memberDto.memail }"></td>
 									</tr>
-									
+									<tr>
+			                              <td><span class="content_text01">핸드폰 번호 : </span></td>
+			                              <td><input class="input_type01" type="text" name="mphone"></td>
+		                           </tr>   
+		                           <tr>
+			                              <td><span class="content_text01">집 주 소: </span></td>
+			                              <td><input class="input_type01" type="text" name="maddress"></td>
+		                           </tr>
+											
 									<tr>
 										<td colspan="2">
 											<input class="button_type01" type="button" value="수정완료" onclick="joinCheck()">&nbsp;&nbsp;

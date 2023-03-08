@@ -6,7 +6,7 @@
 <meta charset="UTF-8">
 <link rel="stylesheet" href="${pageContext.request.contextPath }/resources/css/title.css">
 <link rel="stylesheet" href="${pageContext.request.contextPath }/resources/css/content.css">
-<title>** Gyojin's Profile **</title>
+<title>로그인성공</title>
 </head>
 <body>
 	<%@ include file="include/header.jsp" %>
@@ -48,7 +48,7 @@
 								}
 							%>
 							${mid }님 로그인 하셨습니다. 반갑습니다!<br>
-							${memberDto.mname }님의 가입일은 [${memberDto.mdate }]입니다.						
+							${memberDto.mname }잘부탁드립니다.						
 						</td>						
 					</tr>
 					
