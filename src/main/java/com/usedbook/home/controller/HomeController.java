@@ -163,10 +163,12 @@ public class HomeController {
 		String mpw = request.getParameter("mpw");
 		String mname = request.getParameter("mname");
 		String memail = request.getParameter("memail");
+		String mphone = request.getParameter("mphone");
+		String maddress = request.getParameter("maddress");
 		
 		IDao dao = sqlSession.getMapper(IDao.class);
 		
-		dao.memberModify(mid, mpw, mname, memail);
+		dao.memberModify(mid, mpw, mname, memail, mphone, maddress);
 		
 		MemberDto memberDto = dao.getMemberInfo(mid);//수정된 회원정보 다시 가져오기
 		
