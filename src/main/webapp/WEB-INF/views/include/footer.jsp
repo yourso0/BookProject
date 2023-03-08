@@ -13,10 +13,10 @@
 			&nbsp;
 		</tr>
 		<tr class="footerline02">
-			<td class="footerbox01">Copyright ⓒ GyoJinCompany. All Rights Reserved</td>
+			<td class="footerbox01">Copyright ⓒ BYKCompany. All Rights Reserved</td>
 		</tr>
 		<tr class="footerline02">
-			<td class="footerbox02">This homepage is built with Spring Framework. Made by GyojinLee. E-Mail:luckyred@gmail.com</td>
+			<td class="footerbox02">This homepage is built with Spring Framework. Made by BYKCompany. E-Mail:abc@gmail.com</td>
 		</tr>
 	</table>
 </body>
