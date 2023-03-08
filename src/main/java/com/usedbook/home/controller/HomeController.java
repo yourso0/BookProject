@@ -172,7 +172,7 @@ public class HomeController {
 		
 		MemberDto memberDto = dao.getMemberInfo(mid);//수정된 회원정보 다시 가져오기
 		
-		model.addAttribute("memberDto", memberDto);
+		model.addAttribute("memberDto", memberDto);//아하앟아
 		
 		return "memberModifyOk";
 	}
