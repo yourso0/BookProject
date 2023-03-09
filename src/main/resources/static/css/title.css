@@ -1,53 +1,35 @@
+
 @charset "UTF-8";
 
 body {
 	margin: 0;
 	padding: 0;
-}
-
+}	
 span.title01 {
-	font-size: 70px;
-	color: #AF460F;
+	font-size: 30px;
+	color: #fdcc4a;
 	font-family: Arial;
 	font-weight: bold;
 }
-
 span.title02 {
-	font-size: 20px;
-	color: #FED39F;
-	font-family: Arial;
-	font-weight: normal;
-}
-
-span.title03 {
-	font-size: 60px;
-	color: #cc3800;
+	font-size: 15px;
+	color: #eb995c;
 	font-family: Arial;
 	font-weight: bold;
 }
-
-span.title04 {
-	font-size: 40px;
-	color: #FE8761;
-	font-family: Arial;
-	font-weight: bold;
+td.titleA01{
+	text-align: left;
 }
-
-td.skillbox {
-	background-color: #F6EEC9;	
+td.titleA02{
+	text-align: right;
 }
-
-td.picbox {
-	background-color: #330000;
-	text-align: center;
-	
+hr.line01{
+	width: 85%
 }
-
-td.titlebox {
-	text-align: center;
+img.img{
+	height: 250px;
+	width: 150px;
 }
-
-
 
 
 
