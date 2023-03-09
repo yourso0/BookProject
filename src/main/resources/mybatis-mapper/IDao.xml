@@ -24,7 +24,7 @@
 	</select>
 	
 	<update id="memberModify">
-		UPDATE member_join SET mpw=#{param2}, mname=#{param3}, memail=#{param4} WHERE mid=#{param1}
+		UPDATE member_join SET mpw=#{param2}, mname=#{param3}, memail=#{param4}, mphone=#{param5}, maddress=#{param6} WHERE mid=#{param1}
 	</update>
 	
 	<!-- 게시판 SQL -->
