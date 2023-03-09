@@ -4,7 +4,7 @@
 <html>
 <head>
 <meta charset="UTF-8">
-
+<script type="text/javascript" src="${pageContext.request.contextPath }/resources/js/board.js"></script>
 <title>Insert title here</title>
 </head>
 <body>
@@ -19,7 +19,7 @@
 						<td class="content">
 							<center>						
 							<table border="0" cellspacing="0" cellpadding="10">
-								<form action="QNAOK" method="post" name="board_frm">
+								<form action="QNAok" method="post" name="board_frm">
 									<tr>
 										<td><span class="content_text01">아 이 디 : </span></td>
 										<td><input class="input_type01" type="text" name="qid" value="${memberId }" readonly="readonly"></td>
