@@ -11,8 +11,7 @@
 </head>
 <body>
 <%@ include file="include/header.jsp" %>
-      <tr>
-         <td>
+     
             <center>
             <table width="80%" border="0" cellspacing="0" cellpadding="10">
                <tr class="contentbox">
@@ -62,8 +61,7 @@
                </tr>            
             </table>
             </center>         
-         </td>W
-      </tr>
+  
 <%@ include file="include/footer.jsp" %>
 </body>
 </html>

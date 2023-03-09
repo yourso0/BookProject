@@ -10,20 +10,7 @@
 </head>
 <body>
 	<%@ include file="include/header.jsp" %>
-	<center>
-	<table width="75%" border="0" cellspacing="0" cellpadding="20">
-		<tr>
-			<td class="titlebox">
-				<span class="title01">DEVELOPER GYOJIN'S PROFILE</span>
-			</td>
-		</tr>
-		<tr>
-			<td class="titlebox">
-				<span class="title02">I'm Gyojin Lee, a developer who wants a development job. Please call me back.</span>
-			</td>
-		</tr>
-		<tr>
-			<td>
+	
 				<center>
 				<table width="80%" border="0" cellspacing="0" cellpadding="10">
 					<tr class="contentbox">
@@ -31,13 +18,8 @@
 							회원 가입이 실패하였습니다. 다시 확인해주시기 바랍니다.
 							<input type="button" value="회원가입 바로가기" onclick="history.go(-1);">						
 						</td>						
-					</tr>
-					
-				</table>
-				</center>			
-			</td>
-		</tr>
-	</table>
+					</tr>							
+		</table>
 	</center>
 	<%@ include file="include/footer.jsp" %>
 </body>

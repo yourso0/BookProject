@@ -11,20 +11,7 @@
 </head>
 <body>	
 	<%@ include file="include/header.jsp" %>
-	<center>
-	<table width="75%" border="0" cellspacing="0" cellpadding="20">
-		<tr>
-			<td class="titlebox">
-				<span class="title01">DEVELOPER GYOJIN'S PROFILE</span>
-			</td>
-		</tr>
-		<tr>
-			<td class="titlebox">
-				<span class="title02">I'm Gyojin Lee, a developer who wants a development job. Please call me back.</span>
-			</td>
-		</tr>
-		<tr>
-			<td>
+	
 				<center>
 				<table width="80%" border="0" cellspacing="0" cellpadding="10">
 					<tr class="contentbox">
@@ -70,10 +57,7 @@
 					
 				</table>
 				</center>			
-			</td>
-		</tr>
-	</table>
-	</center>
+	
 	<%@ include file="include/footer.jsp" %>
 </body>
 </html>

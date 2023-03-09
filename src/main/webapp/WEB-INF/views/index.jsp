@@ -11,9 +11,7 @@
 	<%@ include file="include/header.jsp" %>	
 	<%@ include file="include/menubar.jsp" %>
 	<center>
-	<table>
-	<center>
-	<table width="80%" border="0" cellspacing="0" cellpadding="10">
+	<table width="80%" border="0" cellspacing="0" cellpadding="20">
 		<tr>
 			<td><span class="title01">베스트셀러</span> <span class="title02 ">TOP6!</span></td>		
 		</tr>	

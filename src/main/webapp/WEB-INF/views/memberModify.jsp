@@ -7,7 +7,7 @@
 <link rel="stylesheet" href="${pageContext.request.contextPath }/resources/css/title.css">
 <link rel="stylesheet" href="${pageContext.request.contextPath }/resources/css/content.css">
 <script type="text/javascript" src="${pageContext.request.contextPath }/resources/js/join.js"></script>
-<title>** Gyojin's Profile **</title>
+<title>프로필</title>
 </head>
 <body>
 <%@ include file="include/header.jsp" %>
@@ -53,9 +53,11 @@
 					<input class="button_type01" type="button" value="수정취소" onclick="script:window.location='index'">
 				</td>
 			</tr>
-		</form>							
+		</form>						
 </table>
-</center>							
+</center>		
+</table>
+</center>					
 <%@ include file="include/footer.jsp" %>
 </body>
 </html>
