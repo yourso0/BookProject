@@ -12,10 +12,10 @@
   <%
       String sessionId = (String) session.getAttribute("memberId");   
    %>
-   <table width="100%" border="0" cellspacing="0" cellpadding="0">
+   <table width="100%" border="0" cellspacing="0" cellpadding="0" >
       <tr class="headline01">
-      <td>
-         <a href="index"><span class="main">매인</span></a>
+      <td class="main">
+         <a href="index">도서 사이트</a>
       </td>
        
          <td width="5%" class="menu01">
@@ -37,7 +37,7 @@
          <%
             if(sessionId == null) {
          %>
-            <a href="join">회원가입</a>
+            <a href="join">JOIN</a>
          <%
             } else {   
          %>
@@ -47,13 +47,10 @@
          %>   
          </td>
       
-         <td width="7%" class="menu01"><a href="QNA">문의하기</a></td>
+         <td class="menu01"><a href="QNA">문의하기</a></td>
          <td width="2%">&nbsp;</td>   
       </tr>
-      <tr class="headline02">
-         <td>&nbsp;</td>
-      </tr>
-         
+    
          </tr>
    </table>
 </body>
