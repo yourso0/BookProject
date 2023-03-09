@@ -5,26 +5,24 @@ body{
 	margin: 0;
 	padding: 0;
 
-	
 }
 
+li.font{
+	color: #000000;
+}
 table.main{
 	 color: #d5bca6;
 
 	width: 100%;
 	height: 60px; 
 	text-align: center;
-	
-	
 }
 .menu {
   list-style: none; 
   margin: 0;
   padding: 0;
   list-style-type:none;
-  background: yellow;
-  
-  
+  border: 1px;
 }
 
 .menu > li {
