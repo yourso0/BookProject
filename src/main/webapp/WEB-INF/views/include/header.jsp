@@ -17,11 +17,7 @@
       <td>
          <a href="index"><span class="main">매인</span></a>
       </td>
-         <td class="input">
-            
-            <input class="contentbox01" type="text" placeholder="책검색 입력하기">
-            <button class="button">검색</button>
-         </td>    
+       
          <td width="5%" class="menu01">
 
          <%
