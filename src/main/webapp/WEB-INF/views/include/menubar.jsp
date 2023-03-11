@@ -16,9 +16,10 @@
       <ul class="menu">
         <li class="font" ><a href="#" >장르별</a>
           <ul class="sub-menu">
-            <li><a href="#">서브메뉴1-1</a></li>
-            <li><a href="#">서브메뉴1-2</a></li>
-            <li><a href="#">서브메뉴1-3</a></li>
+            <li><a href="#">소설</a></li>
+            <li><a href="#">요리</a></li>
+            <li><a href="#">자기계발</a></li>
+            <li><a href="#">헬스</a></li>
           </ul>
         </li>
        </td>
@@ -34,21 +35,10 @@
        </td>
         <td>
         <ul class="menu">
-        <li class="font"><a href="#">메뉴3</a>
-          <ul class="sub-menu">
-            <li><a href="#">서브메뉴3-1</a></li>
-            <li><a href="#">서브메뉴3-2</a></li>
-            <li><a href="#">서브메뉴3-3</a></li>
-          </ul>
-        </li>
-       </td>
-        <td>
-        <ul class="menu">
         <li class="font"><a href="#">게시판</a>
           <ul class="sub-menu">
-            <li><a href="#">서브메뉴4-1</a></li>
-            <li><a href="#">서브메뉴4-2</a></li>
-            <li><a href="#">서브메뉴4-3</a></li>
+            <li><a href="#">글쓰기</a></li>
+            <li><a href="#">글 목록</a></li>
           </ul>
         </li>
       </ul>

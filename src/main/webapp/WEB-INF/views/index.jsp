@@ -24,7 +24,7 @@
 				<td><a  href="#"><img class="img" src="${pageContext.request.contextPath }/resources/img/test.jpg"></a></td>
 				<td><a  href="#"><img class="img" src="${pageContext.request.contextPath }/resources/img/test.jpg"></a></td>
 				<td><a  href="#"><img class="img" src="${pageContext.request.contextPath }/resources/img/test.jpg"></a></td>
-				<td><a  href="#">더보기</a> </td>
+				<td><a  href="AllBook">더보기</a> </td>
 			</tr>
 		</tr>
 	</table>

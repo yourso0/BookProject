@@ -2,6 +2,7 @@ package com.usedbook.home.dao;
 
 import java.util.List;
 
+import com.usedbook.home.dto.BooklistDto;
 import com.usedbook.home.dto.Criteria;
 import com.usedbook.home.dto.MemberDto;
 import com.usedbook.home.dto.QBoardDto;
@@ -22,5 +23,11 @@ public interface IDao {
 	public void questionModify(String qnum, String qname, String qcontent, String qemail);//해당 글번호로 조회하여 질문 수정 update
 	public void questionDelete(String qnum);//글 삭제 delete
 	public int boardAllCount();//게시판 총 글의 개수 가져오기
+	
+	//책 가져오기
+	
+	public List<BooklistDto> Booklist();
+	
+
 	
 }

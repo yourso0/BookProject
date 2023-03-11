@@ -12,6 +12,7 @@ import org.springframework.ui.Model;
 import org.springframework.web.bind.annotation.RequestMapping;
 
 import com.usedbook.home.dao.IDao;
+import com.usedbook.home.dto.BooklistDto;
 import com.usedbook.home.dto.Criteria;
 import com.usedbook.home.dto.MemberDto;
 import com.usedbook.home.dto.PageDto;
@@ -177,7 +178,7 @@ public class HomeController {
 		return "memberModifyOk";
 	}
 	
-	@RequestMapping(value = "/questionOk")
+	@RequestMapping(value = "/QNAok")
 	public String questionOk(HttpServletRequest request) {
 		
 		String qid = request.getParameter("qid");//글쓴유저 아이디
@@ -279,6 +280,29 @@ public class HomeController {
 		
 		return "redirect:list";
 	}
+
 	
+	@RequestMapping(value = "/BookDetails")
+	   public String BookDetails() {
+	     
+	      
+	  
+	      
+	      return "BookDetails";
+	   }
+	@RequestMapping(value = "/AllBook")
+	public String AllBook(Model model, Criteria cri, HttpServletRequest request) {
+		
+		
+		IDao dao = sqlSession.getMapper(IDao.class);
+	
+		List<BooklistDto> booklist =  dao.Booklist();
+		
+		model.addAttribute("book", booklist);
+		
+		return "AllBook";
+	}
+	
+		
 	
 }

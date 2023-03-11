@@ -57,6 +57,13 @@
 		SELECT COUNT(*) FROM profile_board
 	</select>
 	
+	<select id="Booklist" resultType="com.usedbook.home.dto.BooklistDto">
+		SELECT * FROM BOOKTBL
+	</select>
+	
+
+	
+	
 </mapper>
 	
 	
