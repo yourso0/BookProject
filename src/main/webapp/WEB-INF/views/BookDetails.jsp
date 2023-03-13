@@ -12,23 +12,23 @@
 <center>
    <table  width="80%" border="1" cellspacing="0" cellpadding="10">
       <tr>
-         <td rowspan="5"><img alt="" src=""></td><td>책이름</td>
+         <td rowspan="5"><img src="${pageContext.request.contextPath }/resources/img/${Bdto.bimg}"></td><td>제목 :${Bdto.btitle }	</td>
       </tr>
       <tr>
-         <td><td>
+         <td>저자: ${Bdto.bname }</td>
       </tr>
       <tr>
-         <td></td>
+         <td>장르: ${Bdto.bgenre }</td>
       </tr>
-   1   <tr>
-         <td></td>
+     <tr>
+         <td>가격</td>
       </tr>
       <tr>
          <td><input type="button" value="구매하기" onclick=""> </td>
       </tr>
       <tr>
          <td colspan="2" >
-            <textarea rows="20" cols="170"></textarea>
+            <textarea rows="20" cols="170">${Bdto.bstory }</textarea>
          </td>
       </tr>
    </table>

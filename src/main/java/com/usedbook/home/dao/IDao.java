@@ -27,6 +27,8 @@ public interface IDao {
 	//책 가져오기
 	
 	public List<BooklistDto> Booklist();
+	public BooklistDto BookView(String btitle);
+	public void BookDT(String btitle,String bimg, String bname, int bprice , String bstory, String bgenre);
 	
 
 	

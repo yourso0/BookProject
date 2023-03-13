@@ -12,18 +12,18 @@
 	<%@ include file="include/header.jsp" %>	
 	<%@ include file="include/menubar.jsp" %>
 	<center>
-		<table>
+		<table class="aa">
 				<h2>전체 도서 목록</h2>
 				<%int count=0;
 				
 				%>
 			<c:forEach items="${book}" var="books">		
 			<%if(count==0){ %>
-			<tr>
+			<tr>q
 			<%} %>
 				
 		 		<td>
-					<a href="#">
+					<a href="BookDetails?btitle=${books.btitle}">
 						<img src="${pageContext.request.contextPath }/resources/img/${books.bimg}">
 						<br>
 						${books.btitle}

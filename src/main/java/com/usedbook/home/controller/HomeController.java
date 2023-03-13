@@ -281,15 +281,6 @@ public class HomeController {
 		return "redirect:list";
 	}
 
-	
-	@RequestMapping(value = "/BookDetails")
-	   public String BookDetails() {
-	     
-	      
-	  
-	      
-	      return "BookDetails";
-	   }
 	@RequestMapping(value = "/AllBook")
 	public String AllBook(Model model, Criteria cri, HttpServletRequest request) {
 		
@@ -302,7 +293,23 @@ public class HomeController {
 		
 		return "AllBook";
 	}
-	
+	@RequestMapping(value = "/BookDetails")
+	public String BookView(HttpServletRequest request, Model model) {
+		
+		String btitle = request.getParameter("btitle");
+		
+		IDao dao = sqlSession.getMapper(IDao.class);
+		
+		BooklistDto booklistdto = dao.BookView(btitle);
+		
+		if (booklistdto != null) {
+		    model.addAttribute("Bdto", booklistdto);
+		    model.addAttribute("btitle", booklistdto.getBtitle());
+		} else {
+		    // handle the case when the book is not found
+		}
+		return "BookDetails";
+	}
 		
 	
 }

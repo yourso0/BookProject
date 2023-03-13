@@ -60,6 +60,10 @@
 	<select id="Booklist" resultType="com.usedbook.home.dto.BooklistDto">
 		SELECT * FROM BOOKTBL
 	</select>
+	<select id="BookView" resultType="com.usedbook.home.dto.BooklistDto">
+		SELECT * FROM BOOKTBL WHERE btitle=#{param1}
+	</select>
+	
 	
 
 	
